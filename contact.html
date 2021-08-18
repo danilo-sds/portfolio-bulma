@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.3/css/bulma.min.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css">
+    <title>Portfólio</title>
+</head>
+
+<body>
+
+    <!--NAV-->
+    <header>
+        <nav class="navbar" role="navigation" aria-label="main navigation">
+            <div class="navbar-brand">
+                <a class="navbar-item" href="index.html">
+                    <img src="https://bulma.io/images/bulma-logo.png" width="112" height="28">
+                </a>
+            </div>
+            <div id="navbarBasicExample" class="navbar-menu is-active">
+                <div class="navbar-start">
+                    <a class="navbar-item" href="index.html">
+                    Início
+                    </a>
+                    <a class="navbar-item" href="contact.html">
+                    Contato
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!--END NAV-->
+
+    <section class="section">
+        <div class="container">
+            <div class="columns">
+                <!--Cartão de informação-->
+                <div class="column">
+                    <div class="card">
+                        <div class="card-image">
+                            <figure class="image is-4by3">
+                                <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
+                            </figure>
+                        </div>
+                        <div class="card-content">
+                            <div class="media">
+                                <div class="media-content">
+                                    <p class="title is-4">Danilo Souza</p>
+                                    <p class="tag is-dark is-medium">Javascript Full Stack Developer</p>
+                                </div>
+                            </div>
+                            <div class="content">
+                                <p>(81) 9 0000-0000</p>
+                                <p>exemplo@exemplo.com</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--END Cartão de informação-->
+                <div class="column is-9">
+                    <!--Formulário-->
+                    <div class="card">
+                        <header class="card-header">
+                            <p class="card-header-title">
+                                Contato
+                            </p>
+                        </header>
+                        <div class="card-content">
+                            <div class="content">
+                                <div class="field">
+                                    <label class="label">Email</label>
+                                    <div class="control has-icons-left has-icons-right">
+                                        <input class="input " type="email" placeholder="Email input" value="">
+                                        <span class="icon is-small is-left">
+                                        <i class="fas fa-envelope"></i>
+                                      </span>
+                                        <span class="icon is-small is-right">
+                                        <i class="fas fa-exclamation-triangle"></i>
+                                      </span>
+                                    </div>
+                                </div>
+                                <div class="field">
+                                    <label class="label">Message</label>
+                                    <div class="control">
+                                        <textarea class="textarea" placeholder="Textarea"></textarea>
+                                    </div>
+                                </div>
+                                <div class="field is-grouped">
+                                    <div class="control">
+                                        <button class="button is-primary">Submit</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--END Formulário-->
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
